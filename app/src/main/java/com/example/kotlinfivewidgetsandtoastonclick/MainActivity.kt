@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         iv=findViewById(R.id.iv)
         button =findViewById(R.id.btn)
         fbtn=findViewById(R.id.fbtn)
-        tv = findViewById(R.id.fbtn)
+        tv = findViewById(R.id.tv)
         rbtn=findViewById(R.id.rbtn)
         iv.setOnClickListener { Toast.makeText(this,"ImageView is clicked",Toast.LENGTH_SHORT).show() }
         button.setOnClickListener { Toast.makeText(this,"Button is clicked",Toast.LENGTH_SHORT).show() }
